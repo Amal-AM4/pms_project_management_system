@@ -1,0 +1,87 @@
+.da-screen {
+	width: 100%;
+	height: 130px;
+	background-color: #212121;
+}
+
+.da-screen h2 {
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 50px;
+	padding-left: 200px;
+	font-weight: lighter;
+	font-size: 32px;
+}
+
+.dcontainer {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.dcontainer .data-content {
+	margin-top: 30px;
+}
+
+.dcontainer .data-content h2 {
+	font-family: sans-serif;
+}
+
+.dcontainer .dinfo p{
+	font-size: 18px;
+	margin-top: 20px;
+	color: #736868;
+}
+
+.dcontainer .d-table table {
+	width: 100%;
+	font-family: sans-serif;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+.dcontainer .d-table table tr {
+	border-top: 1px solid #736868;
+	height: 120px;
+	font-family: sans-serif;
+}
+
+.dcontainer .d-table table tr img {
+	width: 180px;
+	height: 110px;
+}
+
+.dcontainer .d-table table tr td {
+	font-family: sans-serif;
+}
+
+.dcontainer .d-table table tr td p {
+	color: #736868; 
+}
+
+.dcontainer .d-table table tr td .link {
+	text-decoration: none;
+	color: #42a7ff;
+}
+
+.dcontainer .d-table table tr td .cost {
+	color: #ff4242;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.dcontainer .d-table table tr td a button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #ff4242;
+	color: #fff;
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+}
+
+.dcontainer .d-table table tr td a button:hover {
+	background-color: #e51515;
+}
+

@@ -1,0 +1,155 @@
+
+.phase-one {
+	width: 100%;
+	height: 300px;
+	background-color: #3a3636;
+	font-family: sans-serif;
+}
+
+.phase-one .one-container {
+	width: 85%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.phase-one .one-container .left {
+	width: 50%;
+	height: 300px;
+	float: left;
+	color: #fff;
+}
+
+.phase-one .one-container .left h2 {
+	font-size: 34px;
+	margin-top: 40px;
+}
+
+.phase-one .one-container .left h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.phase-one .one-container .left h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.phase-one .one-container .left h4 .link {
+	text-decoration: none;
+	color: #3d7bf0;
+}
+
+.phase-one .one-container .right {
+	width: 50%;
+	height: 300px;
+	float: right;
+}
+
+.phase-one .one-container .right .boxx {
+	width: 370px;
+	height: 260px;
+	margin-top: 40px;
+	background-color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	margin-left: 30px;
+}
+
+.phase-one .one-container .right .boxx .flex-box {
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+.phase-one .one-container .right .boxx .flex-box .buy,.cart {
+	padding: 15px 71px 15px 71px;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.phase-one .one-container .right .boxx .flex-box .buy {
+	background-color: #55ec41;
+	color: #fff;
+}
+
+.phase-one .one-container .right .boxx .flex-box .buy:hover {
+	background-color: #4cc83c;
+}
+
+.phase-one .one-container .right .boxx .flex-box .cart {
+	background-color: #f24545;
+	color: #fff;
+}
+
+.phase-one .one-container .right .boxx .flex-box .cart:hover {
+	background-color: #df3434;
+}
+
+.phase-two {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.phase-two .con-two {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.phase-two .con-two h2 {
+	margin-top: 20px;
+}
+
+.phase-two .con-two span {
+	text-align: justify;
+}
+
+.phase-three {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.phase-three .con-three {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.phase-three .con-three h2 {
+	margin-top: 20px;
+}
+
+.phase-three .con-three span {
+	text-align: justify;
+}
+
+.comment {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.comment .comment-box h3 {
+	margin-bottom: 5px;
+}
+
+.comment .comment-box small {
+	color: #9e9e9e;
+}
+
+.comment-box textarea {
+	width: 500px;
+	height: 80px;
+	border: 1px solid #464649;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.comment-box form button {
+	width: 100px;
+	height: 40px;
+	background-color: #576aff;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+}

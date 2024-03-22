@@ -1,0 +1,74 @@
+.phase-one {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.phase-one .phase-container {
+	width: 100%;
+	height: 200px;
+}
+
+.phase-one .phase-container .left {
+	width: 25%;
+	height: 200px;
+	float: left;
+}
+
+.phase-one .phase-container .left h1 {
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.phase-one .phase-container .right {
+	width: 75%;
+	height: 200px;
+	float: right;
+	border-radius: 10px;
+	background-color: #e0e0e0;
+}
+
+.phase-one .phase-container .right iframe {
+	border: none;
+	border-radius: 10px;
+}
+
+.phase-two {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.phase-three {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 280px;
+}
+
+.phase-four {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 200px;
+}
+
+.phase-four .alert-msg {
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: #7ad7ff;
+	border-radius: 10px;
+	color: #0179ad;
+}
+
+.phase-four .alert-msg h2 {
+	padding: 10px;
+}
+
+.phase-four .alert-msg p {
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: justify;
+	width: 97%;
+}

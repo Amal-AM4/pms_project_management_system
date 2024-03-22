@@ -1,0 +1,87 @@
+.small-con {
+	width: 85%;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.small-con .box-sel {
+	width: 150px;
+	height: 40px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.small-con button {
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: #6aa2fb;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.small-con button:hover {
+	background-color: #2d72e1;
+}
+
+.small-con hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 85%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table tr td .h3 {
+	color: #111;
+	font-size: 30px;
+}
+
+table tr td .title {
+	color: #a8a4a4;
+}
+
+table tr td h3 {
+	color: #111;
+	font-family: sans-serif;
+}
+
+table tr td small strike {
+	color: #a8a4a4;
+	font-family: sans-serif;
+	margin-right: 50px;
+}
+
+table tr td button {
+	width: 120px;
+	height: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #5dbdf9;
+	color: #fff;
+	font-size: 16px;
+}
+
+table tr td button:hover {
+	background-color: #008ae0;
+}
+
+.about {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.about p {
+	width: 50%;
+	text-align: justify;
+	margin-top: 20px;
+}

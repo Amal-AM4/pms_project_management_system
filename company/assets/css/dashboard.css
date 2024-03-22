@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the side navigation */
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2997b3;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Change color on hover */
+
+.sidenav a:hover {
+    background-color: #2980b9;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.sidenav h4 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidenav .active {
+    background-color: #2287a0;
+}
+
+.sidenav .active:hover {
+    background-color: #046a95;
+    color: #fff;
+}
+
+
+/* Style the content */
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
